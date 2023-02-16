@@ -1,0 +1,157 @@
+*{
+margin: 0;
+}
+body{
+    margin: 0;
+    
+}
+
+.main{
+    width: 100%;
+    height: 1500px;
+    text-align: center;
+
+}
+
+
+.top-bar{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    position: fixed;
+}
+.bar1{
+    width: 100%;
+    height:55px ;
+    display: flex;
+    text-align: center;
+}
+.first,.final{
+    width: 33%;
+    height: 55px;
+    padding-left: 30px;
+    font-size: 17px;
+    padding-top: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.first p:hover,.final p:hover{
+color:  #ded8d8;
+
+}
+
+.midil{
+    width: 35%;
+    height: 57px;
+    padding-left: 30px;
+    font-size: 45px;
+    padding-top: 9px;
+    font-weight: bold;
+    color: #000;
+}
+
+   
+
+
+
+    
+
+.line-div{
+    width: 100%;
+    height: 1px;
+    background-color:  #ded8d8;
+}
+
+.bar2{
+    width: 100%;
+    height: 55px;
+    padding-top: 19px;
+   display: flex;
+   justify-content: center;
+}
+
+ .p1,.p2,.p3,.p4,.p5{
+    height: 55px;
+    width: 20%;
+    font-weight: bold;
+   cursor: pointer;
+
+
+    }
+    .p1:hover,.p2:hover,.p3:hover,.p4:hover,.p5:hover{
+        color: #ded8d8;
+    }
+    
+
+
+    
+
+
+.body-part {
+    background-position: center;
+    background-size: cover;
+    background-image: url(M_whats_in_the_box@3x._ts1589213332.jpg);
+   width: 100%;
+   height: 109vh;
+   text-align: center;
+   padding-top: 194px;
+   color: whitesmoke;
+}
+.body-part h1{
+    font-family: mackinac-bold;
+    font-size: 50px;
+    font-weight: 5000;
+    padding-top: 50px;
+    color: #fff;
+}
+.body-part input{
+    height: 45px;
+    width: 207px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #268026;
+    border-color: #659fae;
+    color: #fff;
+    cursor: pointer;
+}
+.body-part input:hover{
+    background-color: rgb(222, 225, 209);
+}
+.foot-path{
+    
+    width: 100%;
+    height: 320px;
+    display: flex;
+}
+.one,.two,.three{
+    width: 33%;
+    height: 320px;
+    font-size: 24px;
+}
+.last-input{
+    width: 100%;
+    height: 300px;
+
+
+}
+.last-input input{
+    height: 45px;
+    width: 207px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #268026;
+    border-color: #fff;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+
+}
+.last-input input:hover{
+    background-color: rgb(222, 225, 209); 
+}
+.foot-path h1{
+
+
+    color: #17a2b8;
+}
